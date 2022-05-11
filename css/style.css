@@ -1,0 +1,477 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Luxurious Roman', cursive;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/**************
+***********************HEADER AREA START*************/
+.header_area{
+    background: #242426;
+    box-shadow: 3px 0px 7px 5px  black;
+    position: fixed;
+   /*  top: 0;
+    left: 0; */
+    width: 100%;
+    z-index: 3;
+    padding-bottom: 0.375rem;
+}
+.header_top{
+    overflow: hidden;
+    margin-bottom: -1.125rem;
+	padding-top: 1rem;
+    position: relative;
+}
+.logo{
+    color: white;
+}
+.menu{
+    padding-top: 0.3125rem; 
+}
+.menu ul{
+    list-style: none;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+    margin-left: 4.375rem;
+}
+.menu ul li a{
+    display: inline-block;
+    font-size: 1.25rem;
+    color: white;
+    transition: 0.5s;
+}
+.menu ul li a:hover{
+    color: #e90707ce; 
+}
+.menu .slicknav_menu {
+    background: none;
+}
+.slicknav_menu{
+    display: none;
+}
+/******************************HEADER AREA END****************************/
+/************************************** SECTION HEADER CONTANT AREA START*****************************/
+#header_contant{
+    padding-top: 9.375rem;
+    padding-bottom: 6.25rem;
+    background: #242426;
+    overflow: hidden;
+}
+.header_cont{
+    color: white;
+    margin-top: 6.25rem;
+    position: relative;
+}
+.header_cont h2{
+    font-size: 3.125rem;
+    margin-bottom: 1.25rem;
+    cursor: pointer;
+}
+.header_cont p{
+    font-size: 2.25rem;
+    margin-bottom: 1.25rem;
+    width: 18.625rem;;
+    line-height: 2.75rem;
+    cursor: pointer;
+}
+.header_cont a{
+    background: #FF0066;
+    display: inline-block;
+    padding: 0.375rem 1.5rem;
+    border-radius: 0.3125rem;
+    margin-top: -0.375rem;
+    color: white;
+    transition: .5s;
+}
+.header_cont::before {
+    content: "";
+    background: red;
+    width: 0.25rem;
+    height: 24.0625rem;
+    position: absolute;
+    margin-left: -0.625rem;
+}
+.header_cont a:hover{
+    color: black;
+}
+.main_img {
+    margin-top: 3.5625rem;  
+}
+.my_img img{
+    /* width: 500px; */
+    height: 30rem;
+    /* clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);   */
+}
+.new_main_img{
+    width: 100%;
+    float: none;
+    display: none;
+}
+/* ***************************************SECTION HEADER CONTANT AREA END*********************************/
+/*****************************************SECTION ABOUT AREA START***************************************/
+#about_area{
+    background:#353537;
+    padding-top: 5.625rem;
+    padding-bottom: 3.125rem;
+    overflow: hidden;
+}
+#about_area img{
+    width: 25rem;
+    border-radius: 1.875rem;
+}
+.about_contant {position: relative;}
+.about_contant h2{
+    font-size: 1.875rem;
+    margin-bottom: 1.875rem;
+    color:#FFFFFF;
+    font-size: 1.875rem;
+}
+.about_contant h2::after{
+    position: absolute;
+    content: "";
+    width: 6.25rem;
+    height: 0.1875rem;
+    background: #FF0066;
+    top: 2.4375rem;
+    left: 29%;
+}
+/*.about_contant h2::after{
+    content: "";
+    width: 6.25rem;
+    height: 0.1875rem;
+    left: 50%;
+    position: absolute;
+    bottom: 5px;  
+    margin-left: -13.125rem;   
+    border-radius: 0.3125rem;   
+    background: #FF0066;
+}*/
+.about_contant p{
+    font-size: 1.25rem;
+    margin-bottom: 1.25rem;
+    color: #AFAFB0;
+}
+.contant_middle{
+    color: #AFAFB0;
+    line-height: 1.875rem;
+}
+.cont_button{
+    padding-top: 2.125rem;
+}
+.contant_middle i{
+     color:orangered;
+}
+.contant_middle a{
+    margin-right: 1.25rem;
+    background: orangered ;
+    padding: 0.625rem 1.875rem;
+    color: #EAEAEA;
+    border-radius: 10px;
+    transition: .5s;
+}
+.contant_middle .a2{
+    padding: 0.4375rem 0.9375rem;
+    background: #353537;
+    color:#EAEAEA ;
+    border: solid;
+}
+.contant_middle a:hover{
+    color: black;
+}
+/*********************************************SECTION ABOUT AREA END****************************/
+/********************************SECTION SERVICE AREA START****************************************/
+#service_area {
+    padding-top: 4.375rem;
+    padding-bottom: 4.375rem;
+    background: #242426;
+    overflow: hidden;
+}
+.service_title h2{
+    text-align: center;
+    margin-bottom: 1.25rem;
+    color: #FCFCFC;
+    position: relative;
+    font-size: 2.1875rem;
+}
+.service_title h2::after{
+    content: "";
+    width: 3.75rem;
+    height: 0.1875rem;
+    background: #FF0066;
+    position: absolute;
+    bottom: -0.625rem; 
+    left: 50%;
+    margin-left: -2.5rem;
+}
+.service_cont h3, p, a{
+    margin-bottom: 1.25rem;
+}
+.service_cont{
+    text-align: center; 
+    padding-bottom: 3.75rem; 
+    padding-top: 1.875rem;
+}
+.service_cont h3{
+    color: #D7D7D8;
+}
+.service_cont p {
+    width: 12.625rem;
+    margin: 0 auto;
+    color: #737374;
+    font-size: 1.125rem;
+}
+.service_cont a{
+    color:#FF0066;
+    display: inline-block;
+    padding-top: 1.25rem;
+    font-size: 19px;
+    transition: .5s;
+}
+.service_cont a:hover{
+    color:whitesmoke ;
+}
+.service_cont i{
+    padding-bottom: 1.25rem;
+    color:orangered;
+    font-size: 2.5rem;
+}
+/****************************************SECTION SERVICE AREA END***********************************************/
+/*****************************************SECTION SKILLS AREA START************************************************/
+.skills_area{
+    padding-top: 3.125rem;
+    padding-bottom: 4.375rem;
+    background: #353537;
+    overflow: hidden;
+    text-align: center;
+}
+.webdesign {
+    padding-bottom: 3.75rem;
+}
+/**********************************************SECTION SKILLS AREA END********************************/
+/******************************************SECTION PROJECT AREA START***************************/
+#project_area{
+    padding-top: 3.75rem;
+    padding-bottom: 6.25rem;
+    background: #242426;
+    overflow: hidden;
+}
+.project_title h2{
+    font-size: 2.1875rem;
+    text-align: center;
+    margin-bottom: 1.875rem;
+    position: relative;
+    color: #FCFCFC;
+
+}
+.project_title h2::after{
+    content: "";
+    width: 3.75rem;
+    height: 0.1875rem;
+    background: #FF0066;
+    position: absolute;
+    bottom: -0.625rem;
+    left: 50%;
+    margin-left: -2.5rem;
+}
+.post img{
+    width: 300px;  
+    height: 12.5rem;
+    padding: 0rem 1.25rem;
+}
+.post {
+    padding-bottom: 1.875rem;
+    display: block;
+    padding-top: 1.25rem;
+  }
+/*************************************SECTION PROJECT AREA END**********************************************/
+/**********************************************SECTION CONTACT AREA START***************************************************/
+/* #contact_area{
+    padding-top: 3.125rem;
+    padding-bottom: 5.625rem;
+    background: #353537;
+}
+.contact_title h2{
+    font-size: 2.1825rem;
+    text-align: center;
+    padding-bottom: 2.5rem;
+    position: relative;
+    margin-bottom: 2.5rem;
+    color: whitesmoke;
+}
+.contact_title h2::after{
+    content: "";
+    background: #FF0066;
+    width: 3.75rem;
+    height: 0.1875rem;
+    position: absolute;
+    bottom: 1.875rem;
+    left: 50%;
+    margin-left: -1.875rem;
+}
+.form_top input{
+    width: 50%;
+    height: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 0.625rem;
+    background:#242426;
+    color: white;
+    font-size: 0.9375rem;
+}
+.form_top{
+    margin-bottom: 25px;
+}
+.fname input{
+    margin-left: 150px;
+}
+.lname input{
+    margin-right: 150px;
+}
+.form_middle input{
+    width: 50%;
+    height: 40px;
+    padding: 15px;
+    border: none;
+    border-radius: 0.625rem;
+    background:#242426;
+    color: white;
+    font-size: 0.9375rem;
+}
+.form_middle{
+    margin-bottom: 20px;
+}
+.email input{
+    margin-left: 150px;
+}
+.number input{
+    margin-right: 150px;
+}
+.form_end{
+    padding-bottom: 20px;
+}
+.form_end textarea{
+    width: 62%;
+    height: 170px;
+    padding: 15px;
+    border: none;
+    border-radius: 0.625rem;
+    background:#242426;
+    color: white;
+    font-size: 0.9375rem;
+}
+.form_btn button{
+    padding: 0.625rem 1.25rem;
+    background: #FF0066;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 0.3125rem;
+    font-size: 20px;
+    transform: .5s;
+}
+.form_btn button:hover{
+    color: black;
+} */
+/***********************TEAM AREA START***************/
+#team_area{
+    background: #353537;
+    padding-bottom: 5rem;
+} 
+.team_title{
+    padding-top: 4.375rem;
+    text-align: center;
+    color: #DBD5CD;
+    padding-bottom: 1.25rem;
+}
+.team_cont{
+    width: 80%;
+    margin: 0 auto;
+}
+h2{color: white; font-weight: bold; font-size: 40px;}
+.cont1{
+    box-shadow: 0px 0px 14px 0px black;
+    text-align: center;
+    padding: 5rem 2.5rem ;
+    border-radius: 5%;
+    margin: 0 auto;
+    transition: .5s;
+    color: white;
+}
+.cont1:hover{
+    transform: scaleX(0.8);
+    background:orangered;
+    color: black;
+}
+.cont1 img{
+    border-radius: 50%;  border: solid red;
+} 
+.cont1 h3{
+    padding-top: 0.625rem;
+}  
+.cont1, .cont2 span{font-size: 17px;} 
+.team_icon{
+    padding-top: 0.625rem;
+    /* // padding-bottom: 70px; */
+    /* color: white; */
+}
+.team_icon i{
+    padding: 0rem 0.625rem;  transition: 0.5s;
+}
+.team_icon i :hover{
+    color: #FF0066;
+}
+.cont2{
+    box-shadow: 0px 0px 0.875rem 0px black; 
+    text-align: center;
+    padding: 5rem 2.5rem;
+    border-radius: 5%;
+    color: white;
+    margin: 0 auto;
+    transition: .5s;
+}
+.cont2:hover{
+    transform: scaleX(0.8);
+    background:orangered;
+    color: black;
+}   
+.cont2 img{border-radius: 50%;  border: solid red;} 
+.cont2 h3{padding-top: 0.625rem; }
+/* .cont2 span{font-size: 17px;} */
+
+/*TEAM AREA END**/
+/**********************************************SECTION CONTACT AREA END***************************/
+/********************************************************SECTION FOOTER AREA START**********************/
+.footer_area{
+    padding-top: 0.9375rem;
+    padding-bottom: 0.625rem;
+    background: #242426;
+}
+.social_icons{
+    text-align: center;
+    border-radius:  1.875rem;
+}
+.social_icons i {
+    padding: 0rem 1.25rem;
+    font-size: 1.875rem;  
+}
+hr{
+    margin-top: 1.25rem;
+}
+.create{
+    font-size: 1.25rem;
+    font-style: italic;
+    text-align: center;
+    margin-top: 1.25rem;
+    color: #9A9A9B;
+}
+/***********************************SECTION FOOTER AREA END********************************************/
+/*RESPONSIVE*/
+/* .responsive {
+    width: 100%;
+    height: auto;
+} */
